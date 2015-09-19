@@ -18,7 +18,7 @@
         "pkgFiles": null
     },
     "npm": {
-        "publish": false,
+        "publish": true,
         "publishPath": ".",
         "private": false,
         "forcePublishSourceRepo": true

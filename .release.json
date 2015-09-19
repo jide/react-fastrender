@@ -18,10 +18,10 @@
         "pkgFiles": null
     },
     "npm": {
-        "publish": true,
+        "publish": false,
         "publishPath": ".",
         "private": false,
-        "forcePublishSourceRepo": false
+        "forcePublishSourceRepo": true
     },
     "github": {
         "release": false,

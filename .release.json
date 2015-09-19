@@ -8,7 +8,7 @@
     "commitMessage": "Release %s",
     "tagName": "%s",
     "tagAnnotation": "Release %s",
-    "buildCommand": false,
+    "buildCommand": "npm run build",
     "changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]",
     "dist": {
         "repo": false,
@@ -22,5 +22,10 @@
         "publishPath": ".",
         "private": false,
         "forcePublishSourceRepo": false
+    },
+    "github": {
+        "release": false,
+        "releaseName": "Release %s",
+        "tokenRef": "GITHUB_TOKEN"
     }
 }

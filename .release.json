@@ -22,10 +22,5 @@
         "publishPath": ".",
         "private": false,
         "forcePublishSourceRepo": false
-    },
-    "github": {
-        "release": true,
-        "releaseName": "Release %s",
-        "tokenRef": "GITHUB_TOKEN"
     }
 }

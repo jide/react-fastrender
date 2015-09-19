@@ -1,6 +1,6 @@
 {
   "name": "react-fastrender",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Fast render",
   "main": "lib/index.js",
   "repository": {

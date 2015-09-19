@@ -1,0 +1,31 @@
+{
+    "non-interactive": false,
+    "dry-run": false,
+    "verbose": false,
+    "force": false,
+    "pkgFiles": ["package.json"],
+    "increment": "patch",
+    "commitMessage": "Release %s",
+    "tagName": "%s",
+    "tagAnnotation": "Release %s",
+    "buildCommand": false,
+    "changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]",
+    "dist": {
+        "repo": false,
+        "stageDir": ".stage",
+        "baseDir": "dist",
+        "files": ["**/*"],
+        "pkgFiles": null
+    },
+    "npm": {
+        "publish": true,
+        "publishPath": ".",
+        "private": false,
+        "forcePublishSourceRepo": false
+    },
+    "github": {
+        "release": true,
+        "releaseName": "Release %s",
+        "tokenRef": "GITHUB_TOKEN"
+    }
+}
